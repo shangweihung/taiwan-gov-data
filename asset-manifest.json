@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/taiwan-gov-data/static/css/main.569a5c99.chunk.css",
+    "main.js": "/taiwan-gov-data/static/js/main.f63e9faa.chunk.js",
+    "main.js.map": "/taiwan-gov-data/static/js/main.f63e9faa.chunk.js.map",
+    "runtime-main.js": "/taiwan-gov-data/static/js/runtime-main.b6270f63.js",
+    "runtime-main.js.map": "/taiwan-gov-data/static/js/runtime-main.b6270f63.js.map",
+    "static/js/2.b7141c8f.chunk.js": "/taiwan-gov-data/static/js/2.b7141c8f.chunk.js",
+    "static/js/2.b7141c8f.chunk.js.map": "/taiwan-gov-data/static/js/2.b7141c8f.chunk.js.map",
+    "index.html": "/taiwan-gov-data/index.html",
+    "precache-manifest.076526117b45f4ff1f03b202488f62f9.js": "/taiwan-gov-data/precache-manifest.076526117b45f4ff1f03b202488f62f9.js",
+    "service-worker.js": "/taiwan-gov-data/service-worker.js",
+    "static/css/main.569a5c99.chunk.css.map": "/taiwan-gov-data/static/css/main.569a5c99.chunk.css.map",
+    "static/js/2.b7141c8f.chunk.js.LICENSE.txt": "/taiwan-gov-data/static/js/2.b7141c8f.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.b6270f63.js",
+    "static/js/2.b7141c8f.chunk.js",
+    "static/css/main.569a5c99.chunk.css",
+    "static/js/main.f63e9faa.chunk.js"
+  ]
+}
