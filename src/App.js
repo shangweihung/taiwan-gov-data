@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { HashRouter, Route } from "react-router-dom"; 
+import { HashRouter, Route, NavLink } from "react-router-dom"; 
 import Main from "./contents/main";
 import Holiday from "./contents/data/holiday/holiday";
 import Weather from "./contents/data/weather/weather";
@@ -22,8 +22,8 @@ class App extends Component {
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="mr-auto">
-              <Nav.Link href="/holiday">國定假日</Nav.Link>
-              <Nav.Link href="/weather">天氣預報</Nav.Link>
+              <NavLink  exact to={"/"}>國定假日</Nav.Link>
+              <NavLink href="/weather">天氣預報</Nav.Link>
             </Nav>
           </Navbar.Collapse>
         </Navbar>
