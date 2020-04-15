@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import {  BrowserRouter as Router, Route } from "react-router-dom"; 
+import { HashRouter, Route } from "react-router-dom"; 
 import Main from "./contents/main";
 import Holiday from "./contents/data/holiday/holiday";
 import Weather from "./contents/data/weather/weather";
@@ -16,25 +16,25 @@ class App extends Component {
 
   render() {
     return (
-      <Router>
+      <HashRouter>
         <Navbar bg="dark" variant="dark" expand="lg">
           <Navbar.Brand href="/"><i class="far fa-flag"></i> 政府資料開放平台 </Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="mr-auto">
-              <Nav.Link href="/holiday">國定假日</Nav.Link>
-              <Nav.Link href="/weather">天氣預報</Nav.Link>
+              <Nav.Link href="/taiwan-gov-data/holiday">國定假日</Nav.Link>
+              <Nav.Link href="/taiwan-gov-data/weather">天氣預報</Nav.Link>
             </Nav>
           </Navbar.Collapse>
         </Navbar>
 
         <div className="container">
           <Route exact path="/" component={Main} />
-          <Route exact path="/holiday" component={Holiday} />
-          <Route exact path="/weather" component={Weather} />
+          <Route exact path="/taiwan-gov-data/holiday" component={Holiday} />
+          <Route exact path="/taiwan-gov-data/weather" component={Weather} />
         </div>
         
-      </Router>
+      </HashRouter>
     );
   }
 }
