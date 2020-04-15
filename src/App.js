@@ -22,16 +22,16 @@ class App extends Component {
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="mr-auto">
-              <Nav.Link href="/taiwan-gov-data/holiday">國定假日</Nav.Link>
-              <Nav.Link href="/taiwan-gov-data/weather">天氣預報</Nav.Link>
+              <Nav.Link href="/holiday">國定假日</Nav.Link>
+              <Nav.Link href="/weather">天氣預報</Nav.Link>
             </Nav>
           </Navbar.Collapse>
         </Navbar>
 
         <div className="container">
           <Route exact path="/" component={Main} />
-          <Route exact path="/taiwan-gov-data/holiday" component={Holiday} />
-          <Route exact path="/taiwan-gov-data/weather" component={Weather} />
+          <Route exact path="/holiday" component={Holiday} />
+          <Route exact path="/weather" component={Weather} />
         </div>
         
       </HashRouter>
