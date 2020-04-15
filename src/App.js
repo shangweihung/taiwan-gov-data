@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { BrowserRouter as Router, Route, NavLink } from "react-router-dom"; 
+import { HashRouter, Route, NavLink } from "react-router-dom"; 
 import Main from "./contents/main";
 import Holiday from "./contents/data/holiday/holiday";
 import Weather from "./contents/data/weather/weather";
@@ -16,14 +16,14 @@ class App extends Component {
 
   render() {
     return (
-      <Router>
+      <HashRouter>
         <Navbar bg="dark" variant="dark" expand="lg">
-          <Navbar.Brand href="/"><i class="far fa-flag"></i> 政府資料開放平台 </Navbar.Brand>
+          <Navbar.Brand href="/taiwan-gov-data"><i class="far fa-flag"></i> 政府資料開放平台 </Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="mr-auto">
-              <NavLink  exact to={"/holiday"}>國定假日</NavLink>
-              <NavLink href="/weather">天氣預報</NavLink>
+              <Nav.Link href="/taiwan-gov-data/holiday">國定假日</Nav.Link>
+              <Nav.Link href="/taiwan-gov-data/weather">天氣預報</Nav.Link>
             </Nav>
           </Navbar.Collapse>
         </Navbar>
@@ -34,7 +34,7 @@ class App extends Component {
           <Route exact path="/weather" component={Weather} />
         </div>
         
-      </Router>
+      </HashRouter>
     );
   }
 }
