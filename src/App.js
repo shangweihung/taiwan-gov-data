@@ -22,8 +22,8 @@ class App extends Component {
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="mr-auto">
-              <Nav.Link href="/taiwan-gov-data/holiday">國定假日</Nav.Link>
-              <Nav.Link href="/taiwan-gov-data/weather">天氣預報</Nav.Link>
+              <NavLink exact to={"/taiwan-gov-data/holiday"}>國定假日</NavLink>
+              <NavLink exact to={"/taiwan-gov-data/weather"}>天氣預報</NavLink>
             </Nav>
           </Navbar.Collapse>
         </Navbar>
