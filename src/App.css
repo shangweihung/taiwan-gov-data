@@ -15,13 +15,13 @@ a {
   text-decoration: none;
 }
 
-.nav-link {
+.header-tab {
   color: #f4f5e5 !important;
-  font-size: 12px;
+  font-size: 14px;
   padding: 10px;
 }
 
-.nav-link:hover {
+..header-tab:hover {
   color: #141925;
   background-color: #706363;
 }

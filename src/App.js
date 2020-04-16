@@ -22,8 +22,8 @@ class App extends Component {
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="mr-auto">
-              <NavLink exact to={"/holiday"}>國定假日</NavLink>
-              <NavLink exact to={"/weather"}>天氣預報</NavLink>
+              <NavLink exact to={"/holiday"} className="header-tab">國定假日</NavLink>
+              <NavLink exact to={"/weather"} className="header-tab">天氣預報</NavLink>
             </Nav>
           </Navbar.Collapse>
         </Navbar>
