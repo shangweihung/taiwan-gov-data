@@ -21,7 +21,7 @@ a {
   padding: 10px;
 }
 
-..header-tab:hover {
+.header-tab:hover {
   color: #141925;
   background-color: #706363;
 }
