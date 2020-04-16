@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "be673c673df690190c5be1a0198e3714",
+    "revision": "119753771aa610fccf92dd1f1445c52c",
     "url": "/taiwan-gov-data/index.html"
   },
   {
-    "revision": "ebf666b4e58084bec432",
+    "revision": "6890b165089fdf705a98",
     "url": "/taiwan-gov-data/static/css/main.569a5c99.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/taiwan-gov-data/static/js/2.f01ed53a.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "ebf666b4e58084bec432",
-    "url": "/taiwan-gov-data/static/js/main.14f839bc.chunk.js"
+    "revision": "6890b165089fdf705a98",
+    "url": "/taiwan-gov-data/static/js/main.937f14e8.chunk.js"
   },
   {
     "revision": "f505b455da273fe56a78",
