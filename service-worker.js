@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/taiwan-gov-data/precache-manifest.3c6cc0d25467f66e72c7ea707c324fdd.js"
+  "/taiwan-gov-data/precache-manifest.7136f014ccd6f176a22521a975ae2d8b.js"
 );
 
 self.addEventListener('message', (event) => {
