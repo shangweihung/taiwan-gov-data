@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "99d6d5d7fe1679ba6171b56ba857a4aa",
+    "revision": "1199e16c18fd695e586bcec5aae7d334",
     "url": "/taiwan-gov-data/index.html"
   },
   {
